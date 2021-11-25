@@ -240,6 +240,11 @@ TARGET_NFC_SKU := willow
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.se.type=HCE,UICC
 
+# Media
+PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libavservices_minijail.vendor
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAGinkgoFrameworks \
@@ -361,21 +366,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.data.iwlan.enable=true
     ro.telephony.iwlan_operation_mode=legacy
-
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libavservices_minijail \
-    libavservices_minijail.vendor \
-    libnl \
-    libwfdaac \
-    libwfdaac_vendor \
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.debug.wfd.enable=1
-    persist.sys.wfd.virtual=0
 
 # ZRAM
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
