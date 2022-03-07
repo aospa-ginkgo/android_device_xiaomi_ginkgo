@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2022 Paranoid Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -25,8 +25,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     SettingsLib
 
 LOCAL_RESOURCE_DIR := \
-    $(LOCAL_PATH)/res \
-    $(TOP)/packages/resources/devicesettings/res
+    $(LOCAL_PATH)/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 

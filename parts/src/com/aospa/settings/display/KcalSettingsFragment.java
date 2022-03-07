@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 ArrowOS
+ * Copyright (C) 2022 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.display;
+package com.aospa.settings.display;
 
 import android.app.Activity;
 import android.content.Context;
@@ -31,9 +31,9 @@ import androidx.preference.SeekBarPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import org.lineageos.settings.R;
-import org.lineageos.settings.utils.FileUtils;
-import org.lineageos.settings.display.KcalUtils;
+import com.aospa.settings.R;
+import com.aospa.settings.utils.FileUtils;
+import com.aospa.settings.display.KcalUtils;
 
 public class KcalSettingsFragment extends PreferenceFragment implements
         OnPreferenceChangeListener, OnMainSwitchChangeListener {

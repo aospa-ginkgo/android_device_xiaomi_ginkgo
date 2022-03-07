@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 Paranoid Android
+ * Copyright (C) 2022 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings;
+package com.aospa.settings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -28,12 +28,12 @@ import androidx.preference.SeekBarPreference;
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 
-import org.lineageos.settings.R;
-import org.lineageos.settings.dirac.DiracUtils;
-import org.lineageos.settings.display.KcalSettingsActivity;
-import org.lineageos.settings.display.LcdFeaturesPreferenceActivity;
-import org.lineageos.settings.speaker.ClearSpeakerActivity;
-import org.lineageos.settings.utils.VibrationUtils;
+import com.aospa.settings.R;
+import com.aospa.settings.dirac.DiracUtils;
+import com.aospa.settings.display.KcalSettingsActivity;
+import com.aospa.settings.display.LcdFeaturesPreferenceActivity;
+import com.aospa.settings.speaker.ClearSpeakerActivity;
+import com.aospa.settings.utils.VibrationUtils;
 
 public class DeviceSettingsFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener {
