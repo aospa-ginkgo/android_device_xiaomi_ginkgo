@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 Paranoid Android
+ * Copyright (C) 2022 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.display;
+package com.aospa.settings.display;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -24,7 +24,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 
-import org.lineageos.settings.R;
+import com.aospa.settings.R;
 
 public class LcdFeaturesPreferenceFragment extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {

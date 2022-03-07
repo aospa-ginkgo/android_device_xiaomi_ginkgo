@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
  *               2017-2018 The LineageOS Project
+ *               2022 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +16,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings;
+package com.aospa.settings;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -25,9 +26,9 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.settings.dirac.DiracUtils;
-import org.lineageos.settings.display.KcalUtils;
-import org.lineageos.settings.utils.VibrationUtils;
+import com.aospa.settings.dirac.DiracUtils;
+import com.aospa.settings.display.KcalUtils;
+import com.aospa.settings.utils.VibrationUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
