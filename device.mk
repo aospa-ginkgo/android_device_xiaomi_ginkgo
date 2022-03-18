@@ -289,6 +289,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     telephony \
     usb \
     vibrator \
+    wfd \
     wlan
 
 # RIL
@@ -361,21 +362,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.data.iwlan.enable=true
     ro.telephony.iwlan_operation_mode=legacy
-
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libavservices_minijail \
-    libavservices_minijail.vendor \
-    libnl \
-    libwfdaac \
-    libwfdaac_vendor \
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.debug.wfd.enable=1
-    persist.sys.wfd.virtual=0
 
 # ZRAM
 PRODUCT_SYSTEM_PROPERTIES += \
