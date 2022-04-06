@@ -247,16 +247,8 @@ PRODUCT_PACKAGES += \
     GinkgoFrameworks \
     GinkgoSettingsLib \
     GinkgoSystemUI \
-    GinkgoMiuiCamera \
     GinkgoNoCutoutOverlay  \
     NotchBarKiller
-
-# Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/parts/init.xiaomiparts.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.xiaomiparts.rc
 
 # PASR
 PRODUCT_VENDOR_PROPERTIES += \
